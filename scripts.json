@@ -1,0 +1,9 @@
+{
+  "$schema": "https://deno.land/x/denon@2.4.7/schema.json",
+  "scripts": {
+    "start": {
+      "cmd": "deno fmt && deno lint && deno run --allow-net --allow-read --allow-env --location http://localhost:1234 --unstable mod.ts",
+      "desc": "run my mod.ts file"
+    }
+  }
+}
