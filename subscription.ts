@@ -1,4 +1,5 @@
-import { Context, IendPoint } from "./types.ts";
+import { Context } from "./deps.ts";
+import { IendPoint } from "./types.ts";
 import { db } from "./db.ts";
 import { sendNotification } from "./sendNotification.js";
 import { getTime } from "./time.ts";

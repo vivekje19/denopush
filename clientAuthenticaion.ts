@@ -1,4 +1,5 @@
-import { Context, IclientUser } from "./types.ts";
+import { Context } from "./deps.ts";
+import { IclientUser } from "./types.ts";
 import { db } from "./db.ts";
 import { bcrypt } from "./deps.ts";
 

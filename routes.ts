@@ -1,5 +1,5 @@
-import { config, Router } from "./deps.ts";
-import { Context } from "./types.ts";
+import { config, Context, Router } from "./deps.ts";
+
 import { findAndSend, registerUser } from "./subscription.ts";
 import {
   clientValidate,

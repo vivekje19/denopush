@@ -1,8 +1,3 @@
-export type {
-  Context,
-  Middleware,
-} from "https://deno.land/x/oak@v7.6.3/mod.ts";
-
 export type { format } from "https://deno.land/std@0.91.0/datetime/mod.ts";
 
 export interface IendPoint {

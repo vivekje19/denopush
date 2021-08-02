@@ -1,4 +1,8 @@
-export { Application, Router } from "https://deno.land/x/oak@v7.6.3/mod.ts";
+export {
+  Application,
+  Context,
+  Router,
+} from "https://deno.land/x/oak@v7.6.3/mod.ts";
 export { createRequire } from "https://deno.land/std@0.99.0/node/module.ts";
 export { config } from "https://deno.land/x/dotenv@v2.0.0/mod.ts";
 export { oakCors } from "https://deno.land/x/cors@v1.2.2/mod.ts";
